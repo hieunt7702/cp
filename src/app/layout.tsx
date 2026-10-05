@@ -4,6 +4,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { ModalProvider } from "@/context/ModalContext";
 import LeadModal from "@/components/LeadModal";
+import ZaloWidget from "@/components/ZaloWidget";
 import StructuredData from "@/components/StructuredData";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -130,6 +131,7 @@ export default function RootLayout({
           <ModalProvider>
             {children}
             <LeadModal />
+            <ZaloWidget />
           </ModalProvider>
         </LanguageProvider>
       </body>

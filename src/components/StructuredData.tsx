@@ -29,10 +29,9 @@ export default function StructuredData() {
           availableLanguage: ["Vietnamese", "English"],
         },
         sameAs: [
-          "https://facebook.com/ueiht",
-          "https://linkedin.com/company/ueiht",
-          "https://twitter.com/ueiht",
-          "https://youtube.com/@ueiht",
+          "https://www.facebook.com/profile.php?id=61595140709969",
+          "https://www.linkedin.com/in/hi%E1%BA%BFu-nguy%E1%BB%85n-8b6713213/",
+          "https://zalo.me/0334689521",
         ],
       },
       {

@@ -7,6 +7,7 @@ import {
   LinkedinIcon,
   TwitterIcon,
   YoutubeIcon,
+  ZaloIcon,
 } from "./BrandLogos";
 import { useLanguage } from "@/context/LanguageContext";
 import {
@@ -112,20 +113,34 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center space-x-2.5 pt-2">
               <motion.a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61595140709969"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ y: -2 }}
                 aria-label="Facebook"
-                className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-sky-600 hover:border-sky-300 transition-colors"
+                className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-[#1877F2] hover:border-blue-300 transition-colors"
               >
                 <FacebookIcon className="w-4 h-4" />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.linkedin.com/in/hi%E1%BA%BFu-nguy%E1%BB%85n-8b6713213/"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ y: -2 }}
                 aria-label="LinkedIn"
-                className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-sky-600 hover:border-sky-300 transition-colors"
+                className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-[#0A66C2] hover:border-sky-300 transition-colors"
               >
                 <LinkedinIcon className="w-4 h-4" />
+              </motion.a>
+              <motion.a
+                href="https://zalo.me/0334689521"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ y: -2 }}
+                aria-label="Zalo: 0334 689 521"
+                className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-[#0068FF] hover:border-blue-300 transition-colors"
+              >
+                <ZaloIcon className="w-4 h-4" />
               </motion.a>
               <motion.a
                 href="#"
@@ -227,6 +242,22 @@ export default function Footer() {
                   className="hover:text-sky-600 transition-colors leading-none"
                 >
                   {t.footer.phone}
+                </a>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <div className="w-4 h-4 shrink-0 flex items-center justify-center text-[#0068FF]">
+                  <ZaloIcon className="w-3.5 h-3.5" />
+                </div>
+                <a
+                  href="https://zalo.me/0334689521"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#0068FF] transition-colors leading-none flex items-center gap-1.5"
+                >
+                  <span>Zalo: 0334 689 521</span>
+                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-blue-50 text-[#0068FF] font-medium leading-none">
+                    Chat
+                  </span>
                 </a>
               </li>
             </ul>
