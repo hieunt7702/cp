@@ -252,9 +252,9 @@ export default function Footer() {
                   href="https://zalo.me/0334689521"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[#0068FF] transition-colors leading-none flex items-center gap-1.5"
+                  className="hover:text-[#0068FF] transition-colors leading-none flex items-center gap-1.5 whitespace-nowrap"
                 >
-                  <span>Zalo: 0334 689 521</span>
+                  <span>0334 689 521</span>
                   <span className="text-[10px] px-1.5 py-0.5 rounded bg-blue-50 text-[#0068FF] font-medium leading-none">
                     Chat
                   </span>
